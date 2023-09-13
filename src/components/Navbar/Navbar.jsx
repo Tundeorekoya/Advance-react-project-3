@@ -1,4 +1,3 @@
-/** @format */
 
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -60,7 +59,7 @@ const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <div className="App__navbar-smallScreen_links">
-            <Menu />
+              <Menu />
             </div>
           </div>
         )}
